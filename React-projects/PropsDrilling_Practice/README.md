@@ -1,16 +1,24 @@
-# React + Vite
+# Props Drilling in React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Description
+This project demonstrates **props drilling** in React by passing multiple values from a parent component to a reusable Card component to render dynamic UI content.
 
-Currently, two official plugins are available:
+## 🧠 What I Learned
+- Passing data through props.
+- Using props in reusable components.
+- Real-world usage of props drilling.
+- Understanding limitations of deep prop passing.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- React.js
+- Vite
+- JavaScript (ES6)
+- Lucide React
 
-## React Compiler
+## 📂 Props Flow
+Parent Component → Card Component
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 How to Run
+```bash
+npm install
+npm run dev
